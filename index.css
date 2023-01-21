@@ -1,0 +1,242 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://interiordesign.net/wp-content/uploads/2021/12/Interior-Design-4spaces-Aura-idx211001-XTR1_FAB107-1024x1024.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 180vh;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: rgb(8, 50, 36);
+  font-family: "Rubik Spray Paint", cursive;
+  font-size: 250px;
+  text-align: center;
+  text-shadow: 10px 10px 10px pink;
+  margin-bottom: 40px;
+}
+
+.main-nav {
+  background-color: rgb(8, 50, 36);
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 50;
+  margin-right: 50;
+  padding: 10px;
+}
+
+.main-nav li a {
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid pink;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.main-nav li a:hover {
+  color: rgb(8, 50, 36);
+  background-color: pink;
+}
+
+h2 {
+  color: pink;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+  text-shadow: 8px 8px 8px rgb(8, 50, 36);
+}
+
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
+  font-size: 12px;
+  margin-left: 9px;
+  border-radius: 30px;
+  padding: 20px;
+  width: 280px;
+  height: 330px;
+  border: 7px solid pink;
+  box-shadow: 20px 20px 20px rgb(8, 50, 36);
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.article-1 {
+  margin-left: 50px;
+}
+
+h3 {
+  color: pink;
+  font-size: 12px;
+  font-weight: bolder;
+  text-decoration: underline;
+  background-color: rgb(8, 50, 36);
+}
+p {
+  color: pink;
+  font-size: 9px;
+  background-color: rgb(8, 50, 36);
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+h4 {
+  color: pink;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: -10px;
+}
+
+h5 {
+  color: pink;
+}
+
+.make-up-bag,
+.julian-stoller,
+.nail-polish-ysl,
+.bread-hair-bottle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid pink;
+  border-radius: 6px;
+}
+
+.lux-holiday-comp {
+  border: 8px solid pink;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+.competition {
+  border: 8px solid pink;
+  border-radius: 30px;
+  font-size: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 50px 50px;
+  box-shadow: 20px 20px 20px rgb(8, 50, 36);
+  
+}
+
+h6 {
+  color: pink;
+  text-shadow: 8px 8px 8px rgb(8, 50, 36);
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  color: pink;
+  background-color: rgb(8, 50, 36);
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+}
+
+.competition-text {
+  color: pink;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.interview-text,
+.interview-text-2 {
+  font-size: 15px;
+  text-align: left;
+}
+
+a {
+  font-size: 15px;
+  font-weight: bold;
+  color: pink;
+  text-decoration: none;
+}
+
+.office-music,
+.office-dog {
+  color: pink;
+  font-size: 15px;
+  text-decoration: underline;
+  background-color: rgb(8, 50, 36);
+  width: fit-content;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.nail-game-jpg {
+  border: 8px solid pink;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.office-dog-image {
+  border: 8px solid pink;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.fun-additions {
+  border: 8px solid pink;
+  border-radius: 30px;
+  font-size: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 45px;
+  width: 86%;
+  display: flex;
+  box-shadow: 20px 20px 20px rgb(8, 50, 36);
+}
+
+.main-page-footer {
+  background-color: rgb(8, 50, 36);
+  border: 2px solid pink;
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-page-footer ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.main-page-footer ul li a {
+  padding: 6px;
+  margin: 50px;
+  margin-bottom: 30px;
+  font-size: 35px;
+}

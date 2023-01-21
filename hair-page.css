@@ -1,0 +1,123 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://interiordesign.net/wp-content/uploads/2021/12/Interior-Design-4spaces-Aura-idx211001-XTR1_FAB107-1024x1024.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200vh;
+}
+
+.main-nav {
+  background-color: rgb(8, 50, 36);
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 50;
+  margin-right: 50;
+  padding: 10px;
+}
+
+.main-nav li a {
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid pink;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.main-nav li a:hover {
+  color: rgb(8, 50, 36);
+  background-color: pink;
+}
+
+h1 {
+  color: rgb(8, 50, 36);
+  font-family: "Rubik Spray Paint", cursive;
+  font-size: 110px;
+  text-align: center;
+  text-shadow: 10px 10px 10px pink;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: pink;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a {
+  color: pink;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.product-image {
+  border: 8px solid pink;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 47%;
+}
+
+.bread-interview {
+  border: 8px solid pink;
+  border-radius: 30px;
+  font-size: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 50px 50px;
+}
+
+.interview-text,
+.interview-text-2 {
+  color: pink;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.bread-video {
+  border: 8px solid pink;
+  border-radius: 30px;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-page-footer {
+  background-color: rgb(8, 50, 36);
+  border: 2px solid pink;
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-page-footer ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.main-page-footer ul li a {
+  padding: 6px;
+  margin: 50px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: pink;
+}
